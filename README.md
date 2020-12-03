@@ -2,7 +2,7 @@
 
 Version 0.1.0
 
-testen en penguins
+Dit project gaat over penguins en we testen alles uit
 
 
 ## Project organization
