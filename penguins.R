@@ -4,6 +4,10 @@
 #### Penguin data from the palmerpenguins package, by Allison Horst ##
 ######################################################################
 
+library(docstring)
+#'@title scripted code into structured code
+#'@description This function takes out the clutter in column names
+#'@return name without extra's
 
 #Function
 Clean_names <- function(names){
