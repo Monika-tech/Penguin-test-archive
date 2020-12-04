@@ -4,8 +4,17 @@ Version 0.1.0
 
 Dit project gaat over penguins en we testen alles uit
 
+Ik moet hier nog van alles aan toevoegen:
 
-## Project organization
+Zoals:
+
+Wat heb je nodig: Git en clone from git
+
+And I think I need some space and thinken about how to get the user confident in using my script
+
+
+
+## Project organization 
 
 ```
 .
