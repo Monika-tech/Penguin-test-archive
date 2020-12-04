@@ -4,15 +4,16 @@ Version 0.1.0
 
 With this project, data on different kind of penguins are compared en visualized in plots
 
-To use this script, get all my data from github. install Rstudio and run the penguins.R scroipt on the penguins_raw.csv data-file
+To use this script, get all my data from github. install Rstudio and run the penguins.R script on the penguins_raw.csv data-file
 
-For any information: citations at the boyom of this file
+For any information: citations at the botom of this file
+
+
 
 
 ## Project organization 
 
 ```
-.
 ├── .gitignore
 ├── CITATION.md
 ├── LICENSE.md
