@@ -5,15 +5,20 @@
 ######################################################################
 
 
+#Function
+Clean_names <- function(names){
+  names <- sub('\\.{2}.+\\.','',names) # remove text after double period
+  names <- gsub('\\.','_',names) # replace periods in column names
+  return(names)
+}
+
 # Load data
 penguins <- read.csv("data/penguins_raw.csv")
 
+
 # Clean data
 penguins$Species_short <- sub('(^\\w+)\\s.+','\\1',penguins$Species) # pick first word in Species column
-
-names(penguins) <- sub('\\.{2}.+\\.','',names(penguins)) # remove text after double period
-names(penguins) <- gsub('\\.','_',names(penguins)) # replace periods in column names
-
+names(penguins) <- Clean_names(names(penguins))
 penguins <- penguins[!is.na(penguins$Sex),] # remove data where sex is unknown
 
 # Turn species, island, sex into factors
