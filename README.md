@@ -2,16 +2,11 @@
 
 Version 0.1.0
 
-Dit project gaat over penguins en we testen alles uit
+With this project, data on different kind of penguins are compared en visualized in plots
 
-Ik moet hier nog van alles aan toevoegen:
+To use this script, get all my data from github. install Rstudio and run the penguins.R scroipt on the penguins_raw.csv data-file
 
-Zoals:
-
-Wat heb je nodig: Git en clone from git
-
-And I think I need some space and thinken about how to get the user confident in using my script
-
+For any information: citations at the boyom of this file
 
 
 ## Project organization 
