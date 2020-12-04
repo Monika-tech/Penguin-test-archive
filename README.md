@@ -21,6 +21,9 @@ Dit project gaat over penguins en we testen alles uit
 │   ├── processed      <- The final, canonical data sets for modeling. (PG)
 │   ├── raw            <- The original, immutable data dump. (RO)
 │   └── temp           <- Intermediate data that has been transformed. (PG)
+├── Package
+│   ├── a            
+│   └── b
 ├── docs               <- Documentation notebook for users (HW)
 │   ├── manuscript     <- Manuscript source, e.g., LaTeX, Markdown, etc. (HW)
 │   └── reports        <- Other project reports and notebooks (e.g. Jupyter, .Rmd) (HW)
